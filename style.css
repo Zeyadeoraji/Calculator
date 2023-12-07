@@ -1,0 +1,55 @@
+body {
+    background: url(Image/Free\ Night\ Dark.jpg);
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    box-shadow: 3px 5px 6px #000000cc;
+    border-radius: 12px;
+    padding: 12px;
+    background: rgba(0,0,0,0.6);
+    width: 258px;
+    height: 390px;
+  }
+  .calculator input {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 23px;
+    background: transparent;
+
+    border: none;
+    color: rgba(230, 79, 24, 0.884);
+    border-radius: 6px;
+    outline: none;
+    
+  }
+  input::placeholder {
+    color: rgba(230, 79, 24, 0.884);;
+    margin-right: 10px;
+  }
+  button {
+    margin: 5px auto;
+    padding: 18px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #000;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 3px 5px 9px grey;
+  }
+  .opretor {
+    color: orangered;
+  }
+  #equal {
+    width: 48%;
+    background: orangered;
+  }
